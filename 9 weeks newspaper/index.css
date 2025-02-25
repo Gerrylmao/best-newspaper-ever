@@ -15,8 +15,8 @@
 
   }
 
-  .links{
-    margin-left: 40px;
-    margin-right 40px;
-    font-size: 25px;
+  .links nav a{
+    margin: 60px;
+    text-decoration: none;
+    font-size: 30px;
   }
