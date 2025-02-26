@@ -1,4 +1,3 @@
-
 #title{
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
@@ -19,4 +18,19 @@
     margin: 60px;
     text-decoration: none;
     font-size: 30px;
+    display:inline;
   }
+
+  div{
+    float: left;
+    position: relative;
+  }
+
+  img{
+    position: relative;
+  }
+  #lion-wth-colors{
+    position: absolute
+    border 1px
+  }
+   
