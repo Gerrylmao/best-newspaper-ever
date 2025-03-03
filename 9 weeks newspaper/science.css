@@ -1,0 +1,45 @@
+body {
+	background-color: antiquewhite;
+}
+
+h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    color: rgb(133, 15, 35);
+    font-size: 60px;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(133, 15, 35);
+    font-size: larger;
+}
+
+#schoolpage{
+    position: absolute;
+    left: 50%;
+    border: 2px solid rgb(133, 15, 35);
+    width: 130px;
+    left: 0;
+    top: 50px;
+}
+
+#mainpage {
+    position: absolute;
+    left: 50%;
+    border: 2px solid rgb(133, 15, 35);
+    width: 130px;
+    right: 0;
+    top: 50px;
+}
+
+#navs {
+    position: relative;
+    border: 2px solid rgb(133, 15, 35);
+    position: relative;
+    height: 200px;
+}
+
