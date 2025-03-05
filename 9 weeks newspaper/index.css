@@ -6,6 +6,7 @@
   text-align: center;
   color: rgb(133, 15, 35);
   font-size: 60px;
+  margin-bottom: 150px;
 }
 
 body{
@@ -15,7 +16,7 @@ body{
 
 .links nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .links nav div {
@@ -32,7 +33,44 @@ body{
   display: block;
 }
 
+.links{
+  border: solid 2px rgb(133, 15, 35);
+  width: 50%;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
 div{
   float: left;
   position: relative;
 }
+
+a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(133, 15, 35);
+  font-size: larger;
+}
+
+#announcements{
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: rgb(133, 15, 35);
+  font-size: 30px;
+  border: solid 2px rgb(133, 15, 35);
+  position: relative;
+
+}
+
+#bigblock{
+  height: 1200px;
+  width: 750px;
+  border: solid 2px rgb(133, 15, 35);
+  margin-left: 100px;
+}
+
+
+
