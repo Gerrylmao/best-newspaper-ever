@@ -13,32 +13,69 @@ h1 {
 }
 
 a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
     color: rgb(133, 15, 35);
-    font-size: larger;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #schoolpage{
     position: absolute;
-    left: 50%;
-    border: 2px solid rgb(133, 15, 35);
-    width: 130px;
-    left: 0;
+    width: 200px;
+    left: 300px;
     top: 50px;
 }
 
 #mainpage {
     position: absolute;
-    border: 2px solid rgb(133, 15, 35);
-    width: 130px;
-    right: 0;
+    width: 200px;
+    right: 300px;
     top: 50px;
 }
 
 #navs {
     position: relative;
-    border: 2px solid rgb(133, 15, 35);
-    position: relative;
     height: 200px;
+}
+
+#articles {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    color: rgb(133, 15, 35);
+    font-size: 30px;
+    border: solid 2px rgb(133, 15, 35);
+    position: relative;
+    height: 600px;
+}
+
+#science1{
+    border: solid 2px rgb(133, 15, 35);
+    position: absolute;
+    left: 25px;
+    width: 600px;
+    height: 600px;
+}
+
+#science2{
+    border: solid 2px rgb(133, 15, 35);
+    position: absolute;
+    left: 34%;
+    width: 620px;
+    height: 600px;
+}
+
+#science3{
+    border: solid 2px rgb(133, 15, 35);
+    position: absolute;
+    right: 25px;
+    width: 600px;
+    height: 600px;
 }
 
