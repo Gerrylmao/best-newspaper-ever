@@ -19,7 +19,7 @@ a {
     font-style: italic;
     text-align: center;
     color: rgb(133, 15, 35);
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ a {
 #navs {
     position: relative;
     height: 200px;
+    margin-bottom: 40px;
 }
 
 #articles {
@@ -78,4 +79,3 @@ a {
     width: 600px;
     height: 600px;
 }
-
