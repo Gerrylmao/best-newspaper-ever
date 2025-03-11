@@ -57,21 +57,19 @@ a {
   font-weight: 600;
   font-style: italic;
   color: rgb(133, 15, 35);
-  font-size: 30px;
-  border: solid 2px rgb(133, 15, 35);
   display: flex;
   margin: 0 auto;
 }
 
 #bigblock {
   margin-left: 20px;
-  border: solid 2px rgb(133, 15, 35); 
   width: 500px;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
   padding-left: 30px;
   font-size: 40px;
+  text-transform:capitalize;
 }
 
 .thesolution {
@@ -91,4 +89,5 @@ h3{
   font-style: italic;
   text-align: center;
   color: rgb(133, 15, 35);
+  text-align: justify;
 }
