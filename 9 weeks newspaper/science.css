@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     color: rgb(133, 15, 35);
     font-size: 60px;
+    margin-bottom: 150px ;
 }
 
 a {
@@ -23,25 +24,29 @@ a {
     text-decoration: none;
 }
 
-#schoolpage{
-    position: absolute;
-    width: 200px;
-    left: 300px;
-    top: 50px;
-}
-
-#mainpage {
-    position: absolute;
-    width: 200px;
-    right: 300px;
-    top: 50px;
-}
-
 #navs {
-    position: relative;
     height: 200px;
     margin-bottom: 40px;
+    border: solid 2px rgb(133, 15, 35);
 }
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#schoolpage{
+    width: 400px;
+    margin-right: 200px;
+}
+
+#mainpage {    
+    width: 400px;
+    margin-left: 200px;
+
+}
+
 
 #articles {
     font-family: "Bodoni Moda SC", serif;
@@ -51,14 +56,14 @@ a {
     text-align: center;
     color: rgb(133, 15, 35);
     font-size: 30px;
-    border: solid 2px rgb(133, 15, 35);
-    position: relative;
     height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 #science1{
     border: solid 2px rgb(133, 15, 35);
-    position: absolute;
     left: 25px;
     width: 600px;
     height: 600px;
@@ -66,7 +71,6 @@ a {
 
 #science2{
     border: solid 2px rgb(133, 15, 35);
-    position: absolute;
     left: 34%;
     width: 620px;
     height: 600px;
@@ -74,7 +78,6 @@ a {
 
 #science3{
     border: solid 2px rgb(133, 15, 35);
-    position: absolute;
     right: 25px;
     width: 600px;
     height: 600px;
