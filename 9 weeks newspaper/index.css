@@ -22,7 +22,7 @@ body {
 .links nav div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 20px;
 }
 
@@ -35,16 +35,20 @@ body {
 
 .links {
   border: solid 2px rgb(133, 15, 35);
-  width: 50%;
+  width: 30%;
   border-top: none;
   border-left: none;
   border-bottom: none;
 }
 
 a {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
   color: rgb(133, 15, 35);
-  font-size: larger;
+  text-decoration: none;
 }
 
 #announcements {
@@ -52,18 +56,39 @@ a {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: italic;
-  text-align: center;
   color: rgb(133, 15, 35);
   font-size: 30px;
   border: solid 2px rgb(133, 15, 35);
   display: flex;
+  margin: 0 auto;
 }
 
 #bigblock {
-  margin: 20px;
+  margin-left: 20px;
   border: solid 2px rgb(133, 15, 35); 
   width: 500px;
   display: flex;
-  justify-content: ;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  font-size: 40px;
+}
 
+.thesolution {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+h3{
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: rgb(133, 15, 35);
 }
