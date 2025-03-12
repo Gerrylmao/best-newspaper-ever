@@ -1,73 +1,62 @@
-body{
+body {
+    height: 800px;
     background-color: antiquewhite;
-}
-
-h1{
+    background-image: url(sportsbackground.png);
+    background-repeat: no-repeat;
+  
+  }
+  
+  h1 {
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 200;
     font-style: italic;
-    color: rgb(133, 15, 35);
-    margin-bottom: 150px;
     text-align: center;
-    font-size:  100px;
-}
-
-.sportspage{
+    color: rgb(133, 15, 35);
+    font-size: 60px;
+  }
+  
+  a {
+  
+    color: rgb(78, 3, 16);
+    font-size: 20px;
+    font-family: "Girassol", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 50px;
+  
+  }
+  
+  
+  h2 {
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     color: rgb(133, 15, 35);
-    margin-bottom: 150px;
-}
+    font-size: 30px;
+  }
+  
+  
+  header {
+    padding: 30px;
+  }
+  
+  
+  
+  p {
+    font-family: "Girassol", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(99, 24, 37);
+  
+  }
+  
+  nav {
+    padding: 30px;
+    background-color: rgb(184, 50, 73);
+    height: 5px;
+    text-align: center;
+  }
 
-
-
-
-.navMenu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background-color: antiquewhite;
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: italic;
-    color: rgb(133, 15, 35);
-    margin-bottom: 150px;
-    font-size:30px;
-
-}
-
-a{
-    text-decoration: none;
-    color: rgb(133, 15, 35);
-}
-
-#schoolpage{
-    width: 400px;
-    margin-right: 200px;
-    
-}
-
-#mainpage {    
-    width: 400px;
-    margin-left: 200px;
-    
-}
-
-.articles{
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: italic;
-    color: rgb(133, 15, 35);
-    font-size: 34px;
-    margin-bottom: 150px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-    
+  
