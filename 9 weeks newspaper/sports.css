@@ -49,6 +49,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: rgb(99, 24, 37);
+    border-right: solid rgb(133, 15, 35) 2px;
   
   }
   
@@ -57,6 +58,11 @@ body {
     background-color: rgb(184, 50, 73);
     height: 5px;
     text-align: center;
+  }
+  div{
+    display: flex;
+    flex-wrap: nowrap;
+    border-right: solid rgb(133, 15, 35) 2px;
   }
 
   
