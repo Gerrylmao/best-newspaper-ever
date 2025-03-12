@@ -4,8 +4,11 @@ body {
   background-image: url(artbackground.png);
 
 }
-
 h1 {
+  border: dashed rgb(133, 15, 35);
+  background-color: rgb(252, 247, 240);
+  border-radius: 20px;
+  width: 700px;
   font-family: "Bodoni Moda SC", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -22,13 +25,10 @@ a {
   font-family: "Girassol", serif;
   font-weight: 600;
   font-style: normal;
+  padding-right: 10px;
 
 }
 
-#mainpage {
-  position: relative;
-  left: 50%;
-}
 
 h2 {
   font-family: "Bodoni Moda SC", serif;
@@ -39,12 +39,11 @@ h2 {
   font-size: 30px;
 }
 
-.pop {
+.pop{
   height: 400px;
-  padding: 15px;
   border-right: solid rgb(133, 15, 35) 2px;
-  width: 300px;
-  text-align: justify;
+
+
 }
 
 header {
@@ -58,22 +57,62 @@ p {
   font-weight: 400;
   font-style: normal;
   color: rgb(99, 24, 37);
-
+  text-align: justify;
+  width: 200px;
+ 
 }
 
 nav {
   padding: 30px;
   background-color: rgb(184, 50, 73);
   height: 5px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 #art {
-  padding: 30px;
   border-right: solid rgb(133, 15, 35) 2px;
   text-align: justify;
   width: 280px;
-  position: absolute;
-  left: 400px;
-  top: 285px;
-  height: 370px;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  border-bottom: dashed rgb(133, 15, 35);
+  margin-bottom: 20px;
+}
+#fstline{
+  height: 600px;
+  display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+#scnline{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#scnline p{
+  border-right: solid rgb(133, 15, 35) 2px;
+  height: 500px;
+  margin-right: 50px;
+}
+#trdline{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: solid rgb(133, 15, 35) 5px;
+}
+#trdline div{
+  border-right: solid rgb(133, 15, 35) 2px;
+  height: 500px;
+  margin-right: 50px;
+}
+section{
+  border-top: solid rgb(133, 15, 35) 5px;
+  padding: 0%;
+}
+#pta{
+  width: 100%;
 }
