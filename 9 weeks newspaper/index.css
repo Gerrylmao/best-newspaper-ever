@@ -4,9 +4,15 @@
   font-weight: 600;
   font-style: italic;
   text-align: center;
-  color: rgb(133, 15, 35);
-  font-size: 60px;
+  background-color: rgb(133, 15, 35);
+  color: white;
+  font-size: 100px;
   margin-bottom: 150px;
+  height: 200px;
+  padding-top: 50px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 body {
@@ -91,3 +97,4 @@ h3{
   color: rgb(133, 15, 35);
   text-align: justify;
 }
+/* Made by Gerry */
