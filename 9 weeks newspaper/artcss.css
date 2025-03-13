@@ -7,6 +7,7 @@ body {
 h1 {
   border: dashed rgb(133, 15, 35);
   background-color: rgb(252, 247, 240);
+  background-image: url(h1background.png!f305cw);
   border-radius: 20px;
   width: 700px;
   font-family: "Bodoni Moda SC", serif;
@@ -16,6 +17,7 @@ h1 {
   text-align: center;
   color: rgb(133, 15, 35);
   font-size: 60px;
+  text-shadow: 3px 3px 2px antiquewhite;
 }
 
 a {
@@ -89,23 +91,38 @@ nav {
  justify-content: center;
 }
 #scnline{
+  height: 600px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-around;
+ justify-content: center;
+}
+#scnline div{
+  border-right: solid rgb(133, 15, 35) 5px;
+  height: 600px;
+  margin: 0px 20px;
 }
 #scnline p{
   height: 500px;
   margin-right: 50px;
 }
 #trdline{
+  height: 600px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-around;
+ justify-content: center;
   border-bottom: solid rgb(133, 15, 35) 5px;
 }
 #trdline div{
-  height: 500px;
-  margin-right: 50px;
+  border-right: solid rgb(133, 15, 35) 5px;
+  height: 600px;
+  margin: 0px 20px;
+}
+#trdline p{
+  padding-right: 50px;
 }
 section{
   border-top: solid rgb(133, 15, 35) 5px;
@@ -123,4 +140,12 @@ img{
   border-right: solid rgb(133, 15, 35) 5px;
   height: 600px;
   margin: 0px 20px;
+}
+footer section{
+  justify-content: center;
+  height: 100px;
+}
+#footer{
+  display: flex;
+  flex-wrap: wrap;
 }
