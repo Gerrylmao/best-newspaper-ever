@@ -1,68 +1,68 @@
 body {
-    height: 800px;
-    background-color: antiquewhite;
-    background-image: url(sportsbackground.png);
-    background-repeat: no-repeat;
-  
-  }
-  
-  h1 {
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: italic;
-    text-align: center;
-    color: rgb(133, 15, 35);
-    font-size: 60px;
-  }
-  
-  a {
-  
-    color: rgb(78, 3, 16);
-    font-size: 20px;
-    font-family: "Girassol", serif;
-    font-weight: 600;
-    font-style: normal;
-    padding: 50px;
-  
-  }
-  
-  
-  h2 {
-    font-family: "Bodoni Moda SC", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
-    color: rgb(133, 15, 35);
-    font-size: 30px;
-  }
-  
-  
-  header {
-    padding: 30px;
-  }
-  
-  
-  
-  p {
-    font-family: "Girassol", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(99, 24, 37);
-    border-right: solid rgb(133, 15, 35) 2px;
-  
-  }
-  
-  nav {
-    padding: 30px;
-    background-color: rgb(184, 50, 73);
-    height: 5px;
-    text-align: center;
-  }
-  div{
-    display: flex;
-    flex-wrap: nowrap;
-    border-right: solid rgb(133, 15, 35) 2px;
-  }
+  height: 800px;
+  background-color: antiquewhite;
+  background-image: url(sportsbackground.png);
+  background-repeat: no-repeat;
 
-  
+}
+
+h1 {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  color: rgb(133, 15, 35);
+  font-size: 60px;
+}
+
+a {
+
+  color: rgb(78, 3, 16);
+  font-size: 20px;
+  font-family: "Girassol", serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 50px;
+
+}
+
+
+h2 {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(133, 15, 35);
+  font-size: 30px;
+}
+
+
+header {
+  padding: 30px;
+}
+
+
+
+p {
+  font-family: "Girassol", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(99, 24, 37);
+  border-right: solid rgb(133, 15, 35) 2px;
+
+}
+
+nav {
+  padding: 30px;
+  background-color: rgb(184, 50, 73);
+  height: 5px;
+  text-align: center;
+}
+div{
+  display: flex;
+  flex-wrap: nowrap;
+  border-right: solid rgb(133, 15, 35) 2px;
+}
+
+/* Made by Ivana Solis */
