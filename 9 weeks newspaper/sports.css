@@ -1,68 +1,152 @@
 body {
-  height: 800px;
-  background-color: antiquewhite;
-  background-image: url(sportsbackground.png);
-  background-repeat: no-repeat;
-
-}
-
-h1 {
-  font-family: "Bodoni Moda SC", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: italic;
-  text-align: center;
-  color: rgb(133, 15, 35);
-  font-size: 60px;
-}
-
-a {
-
-  color: rgb(78, 3, 16);
-  font-size: 20px;
-  font-family: "Girassol", serif;
-  font-weight: 600;
-  font-style: normal;
-  padding: 50px;
-
-}
-
-
-h2 {
-  font-family: "Bodoni Moda SC", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-  color: rgb(133, 15, 35);
-  font-size: 30px;
-}
-
-
-header {
-  padding: 30px;
-}
-
-
-
-p {
-  font-family: "Girassol", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(99, 24, 37);
-  border-right: solid rgb(133, 15, 35) 2px;
-
-}
-
-nav {
-  padding: 30px;
-  background-color: rgb(184, 50, 73);
-  height: 5px;
-  text-align: center;
-}
-div{
-  display: flex;
-  flex-wrap: nowrap;
-  border-right: solid rgb(133, 15, 35) 2px;
-}
+    height: 800px;
+    background-color: antiquewhite;
+    background-image: url(sportsbackground.png);
+  
+  }
+  h1 {
+    border: dashed rgb(133, 15, 35);
+    background-color: rgb(252, 247, 240);
+    background-image: url(sportsh1decor.png) ;
+    border-radius: 20px;
+    width: 700px;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    color: rgb(99, 9, 24);
+    font-size: 60px;
+    text-shadow: 4px 4px 2px antiquewhite;
+  }
+  
+  a {
+  
+    color: rgb(78, 3, 16);
+    font-size: larger;
+    font-family: "Girassol", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-right: 10px;
+  
+  }
+  
+  
+  h2 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(133, 15, 35);
+    font-size: 30px;
+  }
+  
+  .soccer{
+    height: 400px;
+  
+  
+  }
+  
+  header {
+    padding: 30px;
+  }
+  
+  
+  
+  p {
+    font-family: "Girassol", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(99, 24, 37);
+    text-align: justify;
+    width: 250px;
+  }
+  
+  nav {
+    padding: 30px;
+    background-color: rgb(184, 50, 73);
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  
+  #sport {
+    text-align: justify;
+    width: 280px;
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+    border-bottom: dashed rgb(133, 15, 35);
+    margin-bottom: 20px;
+  }
+  #fstline{
+    height: 600px;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   justify-content: center;
+  }
+  #scnline{
+    height: 600px;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   justify-content: center;
+  }
+  #scnline div{
+    border-right: solid rgb(133, 15, 35) 5px;
+    height: 600px;
+    margin: 0px 20px;
+  }
+  #scnline p{
+    height: 500px;
+    margin-right: 50px;
+  }
+  #trdline{
+    height: 600px;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   justify-content: center;
+    border-bottom: solid rgb(133, 15, 35) 5px;
+  }
+  #trdline div{
+    border-right: solid rgb(133, 15, 35) 5px;
+    height: 600px;
+    margin: 0px 20px;
+  }
+  #trdline p{
+    padding-right: 50px;
+  }
+  section{
+    border-top: solid rgb(133, 15, 35) 5px;
+    padding: 0%;
+    height: 800px;
+  }
+  #pta{
+    width: 100%;
+  }
+  img{
+    border: double rgb(133, 15, 35) 10px;
+    margin: 10px;
+  }
+  #fstline div{
+    border-right: solid rgb(133, 15, 35) 5px;
+    height: 600px;
+    margin: 0px 20px;
+  }
+  footer section{
+    justify-content: center;
+    height: 100px;
+  }
+  #footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 /* Made by Ivana Solis */
